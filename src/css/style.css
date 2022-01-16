@@ -1,0 +1,63 @@
+body {
+    font-family: 'Inter', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+}
+
+.title {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.subtitle {
+    font-weight: 1100;
+    font-size: larger;
+}
+
+.button {
+    background-color: #59c5ff;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.branding {
+    padding: 60px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    width: 40%;
+    vertical-align: middle;
+    position: absolute;
+    height: 100%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item + .item {
+    margin-bottom: -1.25rem;
+}
+
+.button:hover {
+    background-color: #45a0d1;
+    padding: 16px 20px;
+    transition: ease 0.5s;
+}
+
+.button:focus {
+    background-color: #45a0d1;
+    padding: 16px 20px;
+    outline: blue;
+    transition: ease 0.5s;
+}
+
+hr {
+    height: 1.5px;
+    background-color: #c7c7c7;
+    border: none;
+}

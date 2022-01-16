@@ -1,0 +1,24 @@
+{
+  "name": "wooper-fan.club",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": "https://github.com/xMinota/wooper-fan.club",
+  "author": "Minota",
+  "license": "GPL-3.0",
+  "private": false,
+  "dependencies": {
+    "next": "^12.0.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "typescript": "^4.5.4"
+  }
+}
